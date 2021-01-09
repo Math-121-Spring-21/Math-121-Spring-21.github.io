@@ -85,56 +85,14 @@ a.anchor-link {
 
 .calendar td.header {
   font-weight: 500;
+  background-color: rgba(0, 96, 128, .15);
 }
 
-.calendar tr.monday {
-  background-color: rgba(0, 96, 128, .2);
+.calendar tr.lab {
+  background-color: rgba(0, 96, 128, .15);
 }
 
-.calendar tr.wednesday {
-  background-color: rgba(0, 96, 128, .1);
+.calendar tr.alt {
+  background-color: rgba(0, 96, 128, .05);
 }
 
-/* Staff */
-
-.staff th, .staff tr, .staff td {
-  padding: 30px 40px 40px 0;
-}
-
-.staff td {
-  vertical-align: top;
-  text-align: center;
-}
-
-.staff tr{
-  border:0;
-  border-top: 1px solid #eeeeee;
-}
-
-.biohover {
-  color:#377bb5;
-  text-decoration: underline
-}
-
-.staff .name .biohover .bio {
-  visibility: hidden;
-  width: 200px;
-  background-color: #e7e7e7;
-  color: #000;
-  text-align: left;
-  border-radius: 5px;
-  padding: 5px 5px;
-
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-}
-
-
-.staff .name .biohover:hover .bio {
-  visibility: visible;
-}
-
-.staff .name .biohover:active .bio {
-  visibility: visible;
-}
